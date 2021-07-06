@@ -9,7 +9,7 @@ public class ExemploSet {
 
 //      Set notas = new HashSet(); //antes do java 5
 //      HashSet<Double> notas = new HashSet<>();
-//      Set<Double> notas = new HashSet<>(); //Generics(jdk 5) - Diamont Operator(jdk 7)
+//      Set<Double> notas = new HashSet<>(); //Generics(jdk 5) - Diamond Operator(jdk 7)
 /*      Set<Double> notas = Set.of(7d, 8.5, 9.3, 5d, 7d, 0d, 3.6);
         notas.add(1d);
         notas.remove(5d);
@@ -20,15 +20,15 @@ public class ExemploSet {
         Set<Double> notas = new HashSet<>(Arrays.asList(7d, 8.5, 9.3, 5d, 7d, 0d, 3.6));
         System.out.println(notas.toString());
 
-//        System.out.println("Exiba a posição da nota 5.0: ");
+//        System.out.println("Exiba a posição da nota 5.0: "); //não é possível usando Set
 
-//        System.out.println("Adicione na lista a nota 8.0 na posição 4: ");
+//        System.out.println("Adicione na lista a nota 8.0 na posição 4: "); //não é possível usando Set
 
-//        System.out.println("Substitua a nota 5.0 pela nota 6.0: ");
+//        System.out.println("Substitua a nota 5.0 pela nota 6.0: "); //não é possível usando Set
 
         System.out.println("Confira se a nota 5.0 está no conjunto: " + notas.contains(5d));
 
-//        System.out.println("Exiba a terceira nota adicionada: ");
+//        System.out.println("Exiba a terceira nota adicionada: "); //não é possível usando Set
 
         System.out.println("Exiba a menor nota: " + Collections.min(notas));
 
@@ -48,7 +48,7 @@ public class ExemploSet {
         notas.remove(0d);
         System.out.println(notas);
 
-//        System.out.println("Remova a nota da posição 0");
+//        System.out.println("Remova a nota da posição 0"); //não é possível usando Set
 
         System.out.println("Remova as notas menores que 7 e exiba a lista: ");
         Iterator<Double> iterator1 = notas.iterator();
@@ -64,7 +64,7 @@ public class ExemploSet {
         notas2.add(8.5);
         notas2.add(9.3);
         notas2.add(5d);
-        notas2.add(7d);
+        notas2.add(7d); //IDE acusa erro, pois não é possível inserir elementos duplicados usando Set
         notas2.add(0d);
         notas2.add(3.6);
         System.out.println(notas2);

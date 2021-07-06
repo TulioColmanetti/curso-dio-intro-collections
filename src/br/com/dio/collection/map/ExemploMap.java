@@ -14,7 +14,7 @@ public class ExemploMap {
  */
 
 //        Map carrosPopulares2020 = new HashMap(); //antes do java 5
-//        Map<String, Double> carrosPopulares = new HashMap<>(); //Generics(jdk 5) - Diamont Operator(jdk 7)
+//        Map<String, Double> carrosPopulares = new HashMap<>(); //Generics(jdk 5) - Diamond Operator(jdk 7)
 //        HashMap<String, Double> carrosPopulares = new HashMap<>();
 //        Map<String, Double> carrosPopulares2020 = Map.of("gol", 14.4, "uno", 15.6, "mobi", 16.1, "hb20", 14.5, "kwid", 15.6)
 

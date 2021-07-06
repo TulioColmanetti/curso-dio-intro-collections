@@ -28,7 +28,7 @@ public class ExercicioProposto02 {
         //conteúdo do for + try/cath - totalmente opcional
         for (int i = 0; i < 3; i++) {
             try {
-                Thread.sleep(3000);
+                Thread.sleep(500);
                 System.out.print(".");
             } catch (InterruptedException e) {
                 e.printStackTrace();
